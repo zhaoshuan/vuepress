@@ -9,6 +9,6 @@ module.exports = {
             text: 'github',
             link: 'https://github.com/zhaoshuan/webpack4-learning'
         }],
-        sidebar:['/start/']
+        sidebar:['/start/','/other/']
     },
 }
