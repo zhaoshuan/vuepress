@@ -4,7 +4,7 @@ actionText: 开始
 actionLink: /start/
 features:
 - title: 模块化
-  details: 一切皆模块化，一张图片、一个字体文件、都可以看做模块，不管它是什么，只要引入了就当做一个模块
+  details: 一切皆模块化，模块可以是css/js/imsge/font等等，当 webpack 处理应用程序时，它会递归地构建一个依赖关系图，其中包含应用程序需要的每个模块
 - title: 依赖管理
   details: 方便引用第三方模块，让模块更容易复用、避免全局注入导致的冲突、避免重复加载或者加载不必要的模块
 - title: 打包
@@ -24,7 +24,6 @@ footer: 快看前端 | 学习
 2. 输出(output)
 3. loader
 4. 插件(plugins)
-
 
 
 ## 安装
